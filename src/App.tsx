@@ -1,10 +1,14 @@
 import './App.css'
+import NavBar from "./components/NavBar.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
 
   return (
       <>
-          <div className="skeleton h-32 w-32"></div>
+          <NavBar />
+          <div className="skeleton h-screen w-screen"></div>
+          <Footer />
       </>
   )
 }
